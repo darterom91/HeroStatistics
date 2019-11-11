@@ -3,10 +3,11 @@
     <div class="container py-5">
       <h2 class="text-center mb-0">Guia SuperHeros</h2>
       <div class="border border-light m-1 bg-dark text-light p-2" v-for="(hero, index) in heros" :key="index">
-        <div class="row d-flex bg m-1 text-center">
+        <div class="row d-flex bg m-2 text-center">
           <div class="txtInfo col-6 col-sm-6 col-md-4 p-2">{{hero.idHero}}</div>
           <div class="txtInfo col-6 col-sm-6 col-md-4 p-2">{{hero.nameHero}}</div>
           <div class="txtInfo col-12 col-sm-12 col-md-4 p-2">{{hero.biography.publisher}}</div>
+          <div class="imgHero col-12 border border-light p-4"><img :src=hero.image.emblem></div>
         </div>
       </div>
     </div>
@@ -40,6 +41,10 @@ export default {
     background-position: bottom;
     background-attachment: fixed;
     background-size: cover;
+  }
+
+  .imgHero > img{
+    width: 100px;
   }
 
   .container.py-5 > h2{
