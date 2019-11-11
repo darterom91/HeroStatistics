@@ -14,29 +14,20 @@
         </div>
       </div>
     </div> -->
-    <div class="container border border-light navNormal">
-      <div class="row border border-light justify-content-center m-2">
+    <div class="container navNormal">
+      <div class="row justify-content-center m-2">
         <div>
           <img src="@/assets/img/heroStatistics2.png" alt="">
         </div>
       </div>
-      <div class="row border border-light justify-content-center m-2">
-        <div class="col-12 col-md-8 border-light">
-          <ul class="menuNav text-warning border border-light">
-            <li class=""><a to="/">Home</a></li>
-            <li class=" "> | </li>
-            <li class=""><a to="/guia">Guia</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row border border-light justify-content-center m-2">
+      <div class="row justify-content-center m-2">
         <div class="col-12 col-md-8">
-          <div class="input-group ">
+          <form class="input-group ">
             <input type="text" class="form-control bg-dark text-light" v-model="heroName" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="input-group-text bg-warning px-4" @click="newHero" id="basic-addon2"><i class="fas fa-search"></i></button>
+              <button type="submit" class="input-group-text bg-warning px-4" @click="newHero" id="basic-addon2"><i class="fas fa-search"></i></button>
             </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
@@ -64,7 +55,7 @@ export default {
 
 <style scoped>
   .bgHeader {
-    height: 350px;
+    height: 300px;
     background-image: url("../assets/img/fondoHeros.jpg");
     background-position: center;
     background-size: cover;
