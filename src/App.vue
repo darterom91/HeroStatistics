@@ -2,6 +2,7 @@
   <div id="app">
     <CHeader/>
     <CSection/>
+    <Guia/>
     <CFooter/>
   </div>
 </template>
@@ -9,11 +10,13 @@
 <script>
 import CHeader from '@/components/CHeader.vue';
 import CSection from '@/components/CSection.vue';
+import Guia from '@/components/Guia.vue'
 import CFooter from '@/components/CFooter.vue';
 export default {
   components: {
     CHeader,
     CSection,
+    Guia,
     CFooter
   }
 }
