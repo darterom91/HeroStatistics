@@ -2,7 +2,7 @@
   "heros": [
     {
       "idHero": 1,
-      "nameHero": "Superman",
+      "nameHero": "superman",
       "powerstats": {
         "intelligence": "94",
         "strength": "100",
@@ -57,7 +57,7 @@
     },
     {
       "idHero": 2,
-      "nameHero": "Batman",
+      "nameHero": "batman",
       "powerstats": {
         "intelligence": "100",
         "strength": "26",
@@ -107,7 +107,7 @@
     },
     {
       "idHero": 3,
-      "nameHero": "Wonder Woman",
+      "nameHero": "wonder woman",
       "powerstats": {
         "intelligence": "88",
         "strength": "100",
@@ -161,7 +161,7 @@
     },
     {
       "idHero": 4,
-      "nameHero": "Hal Jordan",
+      "nameHero": "hal jordan",
       "powerstats": {
         "intelligence": "69",
         "strength": "90",
@@ -212,7 +212,7 @@
     },
     {
       "idHero": 5,
-      "nameHero": "Flash",
+      "nameHero": "flash",
       "powerstats": {
         "intelligence": "88",
         "strength": "48",
@@ -264,7 +264,7 @@
     },
     {
       "idHero": 6,
-      "nameHero": "Captain America",
+      "nameHero": "captain america",
       "powerstats": {
         "intelligence": "69",
         "strength": "19",
@@ -314,7 +314,7 @@
     },
     {
       "idHero": 7,
-      "nameHero": "Iron Man",
+      "nameHero": "iron man",
       "powerstats": {
         "intelligence": "100",
         "strength": "85",
@@ -367,7 +367,7 @@
     },
     {
       "idHero": 8,
-      "nameHero": "Thor",
+      "nameHero": "thor",
       "powerstats": {
         "intelligence": "69",
         "strength": "100",
@@ -419,7 +419,7 @@
     },
     {
       "idHero": 9,
-      "nameHero": "Hulk",
+      "nameHero": "hulk",
       "powerstats": {
         "intelligence": "88",
         "strength": "100",
@@ -475,7 +475,7 @@
     },
     {
       "idHero": 10,
-      "nameHero": "Spider Man",
+      "nameHero": "spiderman",
       "powerstats": {
         "intelligence": "90",
         "strength": "55",
@@ -538,7 +538,7 @@
     },
     {
       "idHero": 11,
-      "nameHero": "Green Arrow",
+      "nameHero": "green arrow",
       "powerstats": {
         "intelligence": "81",
         "strength": "12",
@@ -588,7 +588,7 @@
     },
     {
       "idHero": 12,
-      "nameHero": "Daredevil",
+      "nameHero": "daredevil",
       "powerstats": {
         "intelligence": "75",
         "strength": "13",
@@ -650,7 +650,7 @@
     },
     {
       "idHero": 13,
-      "nameHero": "Aquaman",
+      "nameHero": "aquaman",
       "powerstats": {
         "intelligence": "81",
         "strength": "85",
@@ -704,7 +704,7 @@
     },
     {
       "idHero": 14,
-      "nameHero": "Wolverine",
+      "nameHero": "wolverine",
       "powerstats": {
         "intelligence": "63",
         "strength": "32",
